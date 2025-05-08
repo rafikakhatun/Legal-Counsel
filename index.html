@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,52 +12,62 @@
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        <!-- Google Font: Poppins -->
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Google Font: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 
-        
-<style>
-    body{
-        font-family: 'Poppins', sans-serif;
-    }
-</style>
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
 
 
 
 </head>
+
 <body>
 
     <!--header and navbar section-->
 
-    <header class="w-full p-6 shadow-sm bg-[#302E81] text-white">
-        <nav class="flex justify-between items-center">
+    <header class="w-full p-6 shadow-sm bg-[#302E81] text-white fixed ">
+        <nav class="flex justify-between items-center w-full relative">
             <div class="font-semibold text-xl tracking-tight">
-            <h1 class="text-[#FBBE24]">Legal<span class="text-white">Counsel</span></h1>
-        </div>
-            <!---->
-            <ul class="flex space-x-8">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Attorneys</a></li>
-                <li><a href="#">Contact</a></li>
+                <h1 class="text-[#FBBE24]">Legal<span class="text-white">Counsel</span></h1>
+            </div>
+            <!--desktop Menu-->
+            <ul class="md:flex hidden space-x-8 ">
+                <li class="hover:text-[#FBBE24]"><a href="#">Home</a></li>
+                <li class="hover:text-[#FBBE24]"><a href="#">Services</a></li>
+                <li class="hover:text-[#FBBE24]"><a href="#">Attorneys</a></li>
+                <li class="hover:text-[#FBBE24]"><a href="#">Testiimonials</a></li>
+                <li class="hover:text-[#FBBE24]"><a href="#">Contact</a></li>
             </ul>
+            <!--responsive menu button -->
+            <input type="checkbox" id="menutoggle" class="peer hidden">
+
+            <label class="md:hidden" for="menutoggle">
+                <i class="fas fa-bars text-xl"></i>
+            </label>
 
 
-
-
-
-
+            <!--mobile Menu-->
+            <ul class=" hidden md:hidden peer-checked:flex flex-col w-full  absolute bg-[#302E81]  top-12">
+                <li class="py-2"><a href="#">Home</a></li>
+                <li class="py-2"><a href="#">Services</a></li>
+                <li class="py-2"><a href="#">Attorneys</a></li>
+                <li class="py-2"><a href="#">Testiimonials</a></li>
+                <li class="py-2"><a href="#">Contact</a></li>
+            </ul>
         </nav>
-
-
-
-
 
 
     </header>
 
 
 
-    
+
 </body>
+
 </html>
