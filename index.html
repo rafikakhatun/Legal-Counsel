@@ -16,6 +16,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
 
+    <!--aos cdn link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
 
     <style>
         body {
@@ -34,10 +38,10 @@
     <header class="w-full p-6 shadow-sm bg-[#302E81] text-white fixed z-50">
         <nav class="flex justify-between items-center w-full relative">
             <div class="font-semibold text-xl tracking-tight">
-                <h1 class="text-[#FBBE24]">Legal<span class="text-white">Counsel</span></h1>
+                <h1 class="text-[#FBBE24]" data-aos="fade-down-right">Legal<span class="text-white">Counsel</span></h1>
             </div>
             <!--desktop Menu-->
-            <ul class="md:flex hidden space-x-8 ">
+            <ul class="md:flex hidden space-x-8 " data-aos="fade-down-left">
                 <li class="hover:text-[#FBBE24]"><a href="#">Home</a></li>
                 <li class="hover:text-[#FBBE24]"><a href="#">Services</a></li>
                 <li class="hover:text-[#FBBE24]"><a href="#">Attorneys</a></li>
@@ -71,7 +75,7 @@
     <section
         class="container mx-auto p-6  bg-[#302E81] pt-32 pb-20 text-white flex flex-col-reverse  md:flex-row  justify-between">
         <!--left content-->
-        <div class="space-y-6">
+        <div class="space-y-6" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
             <h1 class="text-3xl font-semibold md:text-5xl mt-10 ">Expert Legal Solutions for<br> <span
                     class="text-[#FBBE24]">Every Challenge</span></h1>
 
@@ -90,7 +94,8 @@
         </div>
         <!--right-content-->
         <div class="w-auto h-auto flex justify-center items-center ml-4 md:mr-8">
-            <img class="rounded-full " src="image/legal-image.jpg" alt="photo" width="300" height="300">
+            <img class="rounded-full " data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000"
+                src="image/legal-image.jpg" alt="photo" width="300" height="300">
         </div>
     </section>
 
@@ -100,9 +105,10 @@
     <section class="w-full py-14 px-10">
         <!--heading-->
         <div class="text-center mt-6 space-y-3">
-            <h1 class="text-3xl text-[#302E81] font-semibold">Our Legal Services</h1>
+            <h1 class="text-3xl text-[#302E81] font-semibold" data-aos="zoom-in-up">Our Legal Services</h1>
 
-            <p class="text-lg text-[#4B5563]">Comprehensive legal solutions tailored to meet your personal and business
+            <p class="text-lg text-[#4B5563]" data-aos="zoom-in-up">Comprehensive legal solutions tailored to meet your
+                personal and business
                 needs.</p>
         </div>
 
@@ -110,7 +116,8 @@
         <!--card section-->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
             <!--card 1-->
-            <div class="p-8 bg-[#F9FAFB] shadow-lg rounded-lg space-y-4">
+            <div class="p-8 bg-[#F9FAFB] shadow-lg rounded-lg space-y-4" data-aos="fade-right" data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
                 <i class="fas fa-landmark text-4xl text-[#F59E0B]"></i>
                 <h1 class="text-[#302E81] text-xl font-semibold">Corporate Law</h1>
                 <p class="text-md text-[#4B5563]">Expert guidance on business formation, contracts, compliance, and
@@ -121,7 +128,7 @@
             </div>
 
             <!--card 2-->
-            <div class="p-8 bg-[#F9FAFB] shadow-lg rounded-lg space-y-4">
+            <div class="p-8 bg-[#F9FAFB] shadow-lg rounded-lg space-y-4" data-aos="flip-up">
                 <i class="fas fa-gavel text-4xl text-[#F59E0B]"></i>
                 <h1 class="text-[#302E81] text-xl font-semibold">Civil Litigation</h1>
                 <p class="text-md text-[#4B5563]">Strategic representation in disputes, lawsuits, and settlement
@@ -130,7 +137,7 @@
             </div>
 
             <!--card 3-->
-            <div class="p-8 bg-[#F9FAFB] shadow-lg rounded-lg space-y-4">
+            <div class="p-8 bg-[#F9FAFB] shadow-lg rounded-lg space-y-4" data-aos="zoom-out-left">
                 <i class="fas fa-house text-4xl text-[#F59E0B]"></i>
                 <h1 class="text-[#302E81] text-xl font-semibold">Real Estate Law</h1>
                 <p class="text-md text-[#4B5563]">Handling property transactions, leases, zoning issues, and real estate
@@ -139,7 +146,8 @@
             </div>
 
             <!--card 4-->
-            <div class="p-8 bg-[#F9FAFB] shadow-lg rounded-lg space-y-4">
+            <div class="p-8 bg-[#F9FAFB] shadow-lg rounded-lg space-y-4" data-aos="fade-right" data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
                 <i class="fas fa-user-shield text-4xl text-[#F59E0B]"></i>
                 <h1 class="text-[#302E81] text-xl font-semibold">Personal Injury</h1>
                 <p class="text-md text-[#4B5563] ">Representation for victims of accidents, negligence, and personal
@@ -150,7 +158,7 @@
             </div>
 
             <!--card 5-->
-            <div class="p-8 bg-[#F9FAFB] shadow-lg rounded-lg space-y-4">
+            <div class="p-8 bg-[#F9FAFB] shadow-lg rounded-lg space-y-4" data-aos="flip-up">
                 <i class="fas fa-balance-scale text-4xl text-[#F59E0B]"></i>
                 <h1 class="text-[#302E81] text-xl font-semibold">Family Law</h1>
                 <p class="text-md text-[#4B5563]">Compassionate assistance with divorce, custody, adoption, and family
@@ -159,7 +167,7 @@
             </div>
 
             <!--card 6-->
-            <div class="p-8 bg-[#F9FAFB] shadow-lg rounded-lg space-y-4">
+            <div class="p-8 bg-[#F9FAFB] shadow-lg rounded-lg space-y-4" data-aos="zoom-out-left">
                 <i class="fas fa-file-signature text-4xl text-[#F59E0B]"></i>
                 <h1 class="text-[#302E81] text-xl font-semibold">Estate Planning</h1>
                 <p class="text-md text-[#4B5563]">Creating wills, trusts, and comprehensive estate plans to protect your
@@ -193,7 +201,7 @@
             <div class="p-8 w-full shadow-lg rounded-md overflow-hidden">
 
                 <img class=" w-full h-64 object-center rounded-sm hover:scale-110 transition-transform duration-300 "
-                    src="image/side-view-smiley-female-judge-with-gavel.jpg" alt="img">
+                    data-aos="zoom-out-left" src="image/side-view-smiley-female-judge-with-gavel.jpg" alt="img">
 
 
                 <div class="space-y-3 mt-4">
@@ -214,7 +222,8 @@
             <!--card 2-->
             <div class=" p-8 w-full shadow-lg rounded-md overflow-hidden">
                 <img class=" w-full h-64 object-center rounded-sm hover:scale-110 transition-transform duration-300 "
-                    src="image/portrait-confident-young-businessman-with-his-arms-crossed.jpg" alt="img">
+                    src="image/portrait-confident-young-businessman-with-his-arms-crossed.jpg" alt="img"
+                    data-aos="zoom-out-left">
 
                 <div class="space-y-3 mt-4">
                     <h1 class="text-xl text-[#302E81] font-semibold">Michael Chen</h1>
@@ -234,7 +243,7 @@
             <!--card 3-->
             <div class=" p-8 w-full shadow-lg rounded-md overflow-hidden">
                 <img class=" w-full h-64 object-center rounded-sm hover:scale-110 transition-transform duration-300 "
-                    src="image/close-up-male-executive.jpg" alt="img">
+                    src="image/close-up-male-executive.jpg" alt="img" data-aos="zoom-out-left">
                 <div class="space-y-3 mt-4">
                     <h1 class="text-xl text-[#302E81] font-semibold">Amanda Rodriguez</h1>
                     <p class="text-[#F59E0B] font-semibold">Family Law Specialist</p>
@@ -260,15 +269,18 @@
     <!-- start Client Testimonials section-->
     <section class="w-full py-16 px-10 text-white bg-[#302E81]">
         <div class="text-center mt-6 space-y-3">
-            <h1 class="text-2xl font-semibold">Client Testimonials</h1>
-            <p>Hear what our satisfied clients have to say about our services. </p>
+            <h1 class="text-2xl font-semibold" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">Client Testimonials</h1>
+            <p data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">Hear what our satisfied
+                clients have to say about our services. </p>
         </div>
         <!--card section-->
         <div class="w-full mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 ">
             <!--card 1-->
             <div class="p-8 shadow-md bg-[#342F91] rounded-lg space-y-4">
                 <i class="fas fa-quote-left text-yellow-400 text-3xl"></i>
-                <p class="text-[#E4E7EB] text-sm">"LegalCounsel provided exceptional service during my business
+                <p class="text-[#E4E7EB] text-sm" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">"LegalCounsel provided exceptional service during my business
                     acquisition.
                     Their attention to detail and strategic advice saved us from
                     potential pitfalls and ensured a smooth transaction."
@@ -289,7 +301,8 @@
             <!--card 2-->
             <div class="p-8 shadow-md bg-[#342F91] rounded-lg space-y-4">
                 <i class="fas fa-quote-left text-yellow-400 text-3xl"></i>
-                <p class="text-[#E4E7EB] text-sm">"Working with Amanda on my divorce case was a blessing.
+                <p class="text-[#E4E7EB] text-sm" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">"Working with Amanda on my divorce case was a blessing.
                     She was compassionate, professional, and fought hard for my rights while keeping the
                     best interests of my children in mind."
 
@@ -308,7 +321,8 @@
             <!--card 3-->
             <div class="p-8 shadow-md bg-[#342F91] rounded-lg space-y-4">
                 <i class="fas fa-quote-left text-yellow-400 text-3xl"></i>
-                <p class="text-[#E4E7EB] text-sm">"Michael's expertise in real estate law was invaluable
+                <p class="text-[#E4E7EB] text-sm" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">"Michael's expertise in real estate law was invaluable
                     during our commercial property purchase.
                     His negotiation skills and thorough contract review protected our investment."
                 </p>
@@ -344,8 +358,8 @@
 
         <div class="p-8 flex flex-col md:flex-row justify-center items-center gap-8 ">
             <!--contact Us form left Section-->
-            <div
-                class=" lg:w-1/2 p-6 border border-[#D1D5DA] rounded-md mt-2 hover:scale-95 transition-transform duration-300 ">
+            <div class=" lg:w-1/2 p-6 border border-[#D1D5DA] rounded-md mt-2 hover:scale-95 transition-transform duration-300 "
+                data-aos="flip-left">
                 <form action="" class="space-y-5">
                     <!--name and email input field-->
 
@@ -407,10 +421,13 @@
 
 
             <!--our Location right section-->
-            <div class="lg:w-1/2 p-6 shadow-md space-y-5 rounded-md">
+            <div class="lg:w-1/2 p-6 shadow-md space-y-5 rounded-md" data-aos="flip-right">
                 <h1 class="text-xl font-semibold text-[#342F91]">Our Location</h1>
                 <div class="w-full  bg-[#E4E7EB] rounded-md h-64 overflow-hidden">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.2900945425813!2d88.3407130749633!3d22.5682509794949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277a1e1ee880f%3A0x3ba0dd3aa1410929!2sCalcutta%20High%20Court!5e0!3m2!1sen!2sin!4v1747035922877!5m2!1sen!2sin" class="w-full h-full" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.2900945425813!2d88.3407130749633!3d22.5682509794949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277a1e1ee880f%3A0x3ba0dd3aa1410929!2sCalcutta%20High%20Court!5e0!3m2!1sen!2sin!4v1747035922877!5m2!1sen!2sin"
+                        class="w-full h-full" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <!--location-->
                 <div class="flex items-start space-x-3 ">
@@ -454,11 +471,13 @@
     <!--start footer section-->
     <footer class="w-full bg-[#342F91] py-10 px-10 text-white ">
         <div class="grid grid-cols-1 md:grid-cold-2 lg:grid-cols-4 gap-10">
-            <div class="flex flex-col space-y-4">
+            <div class="flex flex-col space-y-4" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                 <div class="font-semibold text-xl tracking-tight">
                     <h1 class="text-[#FBBE24]">Legal<span class="text-white">Counsel</span></h1>
                 </div>
-                <p class="text-gray-300 text-md">Providing exceptional legal services with integrity and professionalism since 1995.</p>
+                <p class="text-gray-300 text-md">Providing exceptional legal services with integrity and professionalism
+                    since 1995.</p>
                 <!--social link-->
                 <div class="flex flex-row gap-3 text-lg ">
                     <i class="fa-brands fa-facebook hover:text-[#FBBE24]"></i>
@@ -470,7 +489,8 @@
             </div>
 
             <!--Queck Links-->
-            <div class="flex flex-col text-gray-300 space-y-2">
+            <div class="flex flex-col text-gray-300 space-y-2" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                 <h1 class="text-white font-semibold font-lg ">Quick Links</h1>
                 <ul class=" space-y-3 mt-2">
                     <li><a href="#">Home</a></li>
@@ -482,7 +502,8 @@
             </div>
 
             <!--Practice Areas-->
-            <div class="flex flex-col text-gray-300">
+            <div class="flex flex-col text-gray-300" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                 <h1 class="text-white font-semibold font-lg ">Practice Areas</h1>
                 <ul class="space-y-3 mt-3">
                     <li><a href="#">Corporate Law</a></li>
@@ -495,20 +516,24 @@
             </div>
 
             <!--newslatter-->
-            <div class="flex flex-col text-gray-300 space-y-4">
-                <h1 class="text-white font-semibold font-lg" >Newsletter</h1>
+            <div class="flex flex-col text-gray-300 space-y-4" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
+                <h1 class="text-white font-semibold font-lg">Newsletter</h1>
                 <p>Subscribe to our newsletter for legal tips and firm updates.</p>
                 <div class="flex mt-2">
-                    <input type="email" placeholder="Your Email" class="px-4 py-2 w-full rounded-l-md bg-white focus:outline-none text-gray-800">
-                    <button type="submit" class="bg-amber-500 hover:bg-amber-600 px-4 py-2 rounded-r-md transition duration-300">
+                    <input type="email" placeholder="Your Email"
+                        class="px-4 py-2 w-full rounded-l-md bg-white focus:outline-none text-gray-800">
+                    <button type="submit"
+                        class="bg-amber-500 hover:bg-amber-600 px-4 py-2 rounded-r-md transition duration-300">
                         <i class="fas fa-paper-plane text-white"></i>
                     </button>
                 </div>
             </div>
         </div>
         <!--© 2025 LegalCounsel. All rights reserved.-->
-        <div class="text-center py-6 border-t border-[#4B5563] mt-6 text-gray-300 ">
-            <p>© 2025 LegalCounsel. All rights reserved.</p>
+        <div class="text-center py-6 border-t border-[#4B5563] mt-6 text-gray-300" >
+            <p>© 2025 LegalCounsel. All
+                rights reserved.</p>
         </div>
     </footer>
 
@@ -520,7 +545,10 @@
 
 
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
